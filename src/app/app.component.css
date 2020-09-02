@@ -1,11 +1,11 @@
 .container-fluid.general-bar{
 
-    height: 5em;
     display: flex;
     align-items: center;
     margin-bottom: 3%;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
     background-color: #fff;
+    height: 80px;
 
 }
 
@@ -17,7 +17,7 @@
 
 .container-fluid.general-bar div{
 
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -184,4 +184,110 @@
     background-color: transparent;
     padding-left: 12%;
     margin-bottom: 0;
+  }
+
+  @media (max-width: 768px){
+
+    .container-fluid.general-bar div{
+
+        width: auto;
+    }
+
+    .container-fluid.general-bar div p{
+
+        margin-left: .8em;
+    }
+
+    .rectangle {
+
+        width: auto;
+    }
+
+    .card-body .certificaciones p{
+
+        font-size: 10px;
+    }
+
+    .card-body .producto div.add-cert{
+
+        width: 40%;
+    }
+
+    .card-body .producto div.add-cert p{
+
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 520px){
+
+    .container-fluid.general-bar p{
+
+        font-size: 15px;
+    }
+
+    .encabezado{
+
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .card h3{
+
+        font-size: 20px;
+    }
+
+    .card:first-child p{
+
+        font-size: 12px;
+        text-align: left;
+        line-height: 15px;
+    }
+
+    .card-body img{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-body .certificaciones{
+
+        display: block;
+        text-align: center;
+    }
+
+    .card-body .certificaciones p{
+
+        margin: auto;
+        margin-bottom: .5em;
+    }
+
+    .card-body .producto{
+
+        display: block;
+    }
+
+    .card-body .producto:first-child div p{
+
+        font-size: 15px;
+        margin-right: .5em;
+    }
+
+    .card-body .producto div.add-cert,
+    .card-body .certificaciones p.no-cert,
+    .card-body .producto:first-child div{
+
+        width: auto;
+    }
+
+    .card-body .certificaciones p.no-cert{
+
+        padding: 0;
+        text-align: center;
+    }
+
+    .card-body .producto:first-child div{
+
+        justify-content: center;
+    }
   }
