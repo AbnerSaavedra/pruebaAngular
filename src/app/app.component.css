@@ -1,0 +1,187 @@
+.container-fluid.general-bar{
+
+    height: 5em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    background-color: #fff;
+
+}
+
+.encabezado{
+
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.container-fluid.general-bar div{
+
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-fluid.general-bar img{
+
+    width: 15px;
+}
+
+.container-fluid.general-bar p{
+
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.63px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.rectangle {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 727px;
+    height: 796px;
+  }
+
+  .card{
+    border: unset;
+    border-bottom: 1px solid #E5E5E5;
+  }
+
+  .card h3{
+
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0.88px;
+    line-height: 39px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .card:first-child p{
+
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 23px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .card-body{
+
+    box-shadow: 0 1px 0 0 #E5E5E5;
+  }
+
+  .card-body img{
+
+    border-radius: 22px;
+    width: 64px;
+    height: 64px;
+    margin-right: 1em;
+  }
+
+  .card-body .producto{
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-body .producto:first-child div{
+    
+    width: 30%;
+    display: flex;
+
+  }
+
+  .card-body .producto:first-child div p{
+
+    color: #292929;
+    font-size: 22px;
+    letter-spacing: 0.79px;
+    line-height: 31px;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .card-body .producto:first-child div p span{
+
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .card-body .producto div.add-cert{
+
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .card-body .producto div.add-cert img{
+
+    width: 13px;
+  }
+
+  .card-body .producto div.add-cert p{
+
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    text-align: right;
+    font-weight: 500;     
+  }
+
+  .card-body .certificaciones{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .card-body .certificaciones p{
+
+    color: #71BC00;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: left;
+    background-color: #F0F9E4;
+    border-radius: 18px;    
+    width: fit-content;
+    height: auto;
+    padding: .4em;
+    margin-bottom: 0;
+  }
+
+  .card-body .certificaciones a.mas{
+
+    color: #666666;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+.card-body .certificaciones div{
+
+    width: -webkit-fill-available;;
+}
+
+  .card-body .certificaciones p.no-cert{
+
+    color: #666666;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: left;
+    background-color: transparent;
+    padding-left: 12%;
+    margin-bottom: 0;
+  }
